@@ -5,24 +5,237 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thank you page</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0 auto;
+}
+html,body
+{
+    overflow-x: hidden;
+    
+}
+
+h1{
+    font-family: sans-serif, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    color: #E1E7ED;
+}
+h2{
+    font-family: sans-serif, Arial;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Font Color */
+
+    color: #B9BCC1;
+}
+h3{
+    font-family: sans-serif, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: sans-serif, Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    /* Font Color */
+
+    color: #B9BCC1;
+}
+
+.small{
+    /* Small */
+
+    font-family: sans-serif, Arial;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* Font Color */
+
+    color: #B9BCC1;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%), linear-gradient(140.33deg, #141527 9.01%, #3A3B5E 94.56%);
+}
+.container{
+    margin: 0 4%;
+    
+}
+.booking-info{
+    height: auto;
+    background-color: #191C21;
+}
+.top-image{
+    width: 100%;
+    height: auto;
+}
+#top-img{
+    display: flex;
+    min-width: 880px;
+    max-width: 680px;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(360deg, rgba(25, 28, 33, 0.8) 0%, rgba(25, 28, 33, 0) 100%);
+    padding: 0px;
+    border: none;
+    
+}
+.accom-name{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 33%;
+    
+}
+
+.al-1{
+    display: flex;
+}
+
+.al-2{
+    text-align: left;
+}
+
+.icon{
+    margin: 0;
+    width: 24px;
+    height: 24px;
+}
+.icon2{
+    margin: 5;
+    width: 16px;
+    height: 16px;
+}
+
+.icon3{
+    margin: 5px 5px 5px 20px;
+    height: 10.92px;
+    right: 15.11px;
+}
+
+.mg-1{
+    margin: 0 24px;
+}
+
+.mg-2{
+    margin: 24px 0;
+}
+
+.br-line{
+    border: 1px solid #B9BCC1;
+}
+
+.mg-3{
+    margin: 0;
+}
+
+.mg-4{
+    margin: 0 0 0 auto;
+}
+
+.mg-5{
+    margin: 4px 0;
+}
+
+.mg-6{
+    margin: 32px 0 0 0;
+}
+
+.mg-7{
+    margin: 16px 0 4px 0;
+}
+
+.mg-8{
+    margin: 48px 0 16px 0;
+}
+
+.mg-9{
+    margin: 8px 0;
+}
+
+.mg-10{
+    margin: 0 0 16px 0;
+}
+
+.mg-11{
+    margin: 16px 0 32px 0;
+}
+
+.magenta{
+    color: #E5B5CE;
+}
+
+a{
+    text-decoration: underline #B9BCC1;
+}
+
+.phone, .email{
+    text-align: left;
+}
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1{
+    padding-left: 37px;
+    width: 256px;
+    height: 66px;
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #B9BCC1;
+    margin-bottom: 50px;
+}
+    </style>
 </head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 <body>
     <div class="main-container">
     <div class="booking-info">
+        <div class="top-image">
+            <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580805119/email/hero-img/villa_m5nitv.png" id="top-img">
+            <h1 class="accom-name">Villa Suite</h1>
+        </div>
         <div class="container">
-            <div class="top-image">
-                <img src="/img/villa.png" id="top-img">
-                <h1 class="accom-name">Villa Suite</h1>
-            </div>
             <div class="guest al-1 mg-2">
-                <img src="img/user.png" class="icon"></img>
+                <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804821/email/icon/user_y6uxsv.png" class="icon"></img>
                 <p class="num-guest mg-1">2 Guest</p>
             </div>
             <div class="booking-date al-1 mg-2">
-                <img src="img/calendar.png" class="icon"></img>
+                <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804821/email/icon/calendar_dbtimf.png" class="icon">                
                 <p class="from-date mg-1">Fri, 12 Jul </p>
-                <img src="img/right-arrow.png" class="icon"></img>
+                <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804822/email/icon/right-arrow_cup4lm.png" class="icon"></img>
                 <p class="to-date mg-1">Mon, 15 Jul </p>
             </div>
             <div class="br-line mg-2"></div>
@@ -79,8 +292,7 @@
                 <p class="customer-name mg-7">Customer name: Shan Bill</p>
                 <p class="country mg-5">Country: Cambodia</p>
                 <p class="phone mg-5">Phone number: +(855)96 344 5353</p>
-                <p class="email mg-5">Email: Bill_Shan@gmail.com </p>
-                
+                <p class="email mg-5">Email: Bill_Shan@gmail.com </p>   
             </div>
         </div>
     </div>
@@ -90,15 +302,15 @@
             <p>Thank you for selecting vKirirom Resort as your preferred resort. Your payment has been processed successfully.</p>
             <h3 class="magenta mg-6">vKirirom Pine Resort</h3>
             <p class="mg-7">Preah Soramarith-Kosamak National Park (Kirirom), Phnom Srouch District, Kompong Speu Province, Cambodia
-            </p><a href="#"><p class="al-2 mg-10">Get Directions</p></a>
-            <div class="tel-num al-1 mg-9">
-                <img src="img/phone.png" class="icon2"></img>
-                <p class="phone mg-1">+(855) 78 777 284</p>
-            </div>
-            <div class="email al-1 mg-9">
-                <img src="img/email.png" class="icon2"></img>
-                <p class="email mg-1">info@vkirirom.com</p>
-            </div>
+            </p><a href="https://goo.gl/maps/YC1x8Rn3RGize3wo7"><p class="al-2 mg-10">Get Directions</p></a>
+                <div class="tel-num al-1 mg-9">
+                    <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804821/email/icon/phone_vlrevb.png" class="icon2"></img>
+                    <p class="phone mg-1">+(855) 78 777 284</p>
+                </div>
+                <div class="email al-1 mg-9">
+                    <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804821/email/icon/email_pmzu6t.png" class="icon2"></img>
+                    <p class="email mg-1">info@vkirirom.com</p>
+                </div>
             <h2 class="mg-6">Room Description</h2>
             <p class="mg-11"> This spacious fan-cooled bungalow features a balcony, seating area, safety deposit box and private bathroom with a shower, hairdryer and toiletries. Available to select from 1 double size or 2 single beds. It is located just besides the swimming pool and you can enjoy swimming with your children or sunbathing in the sun, feeling the great breeze and fresh air of the pine tree forest. Restaurant is close as well and everything for you to enjoy your stay is just besides.</p>
             <h2 class="mg-6">Cancellation Policy</h2>
@@ -110,7 +322,7 @@
             <h2 class="mg-6">Rules</h2>
             <p class="mg-11">Pets outside, Smoking outside, Parties allowed in front of Camping, After 10pm quiet</p>
             <div class="button-div">
-            <button class="button button1"><p>See your reservation <img src="img/Shape.png" class="icon3"></p></button>
+            <button class="button button1"><p>See your reservation <img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1580804821/email/icon/Shape_yy0ehi.png" class="icon3"></p></button>
             
             </div>
 
